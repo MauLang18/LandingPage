@@ -9,10 +9,9 @@ const Services = () => {
       className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 p-8 md:p-12 xl:p-20"
     >
       <div className="flex flex-col gap-4">
-        <h1 className="text-[40px] font-bold">How we can help you</h1>
+        <h1 className="text-[40px] font-bold">¿Cómo podemos ayudarte?</h1>
         <p className="text-[20px] text-gray-500">
-          Follow our newsletter. We will regulary update our latest project and
-          availability.
+        ¡Suscríbete a nuestro boletín! Mantendremos actualizados nuestros últimos proyectos y disponibilidad regularmente.
         </p>
         <form className="w-full">
           <div className="relative">
@@ -35,30 +34,30 @@ const Services = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="flex flex-col gap-2">
           <RiSmartphoneFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
-          <h3 className="text-[20px] font-bold">UI/UX Design</h3>
+          <h3 className="text-[20px] font-bold">Desarrollo de Apps Moviles</h3>
           <p className="text-gray-500">
-            Sometimes features require a short description
+          Creamos aplicaciones móviles personalizadas y funcionales para satisfacer las necesidades específicas de tu negocio.
           </p>
         </div>
         <div className="flex flex-col gap-2">
           <RiMacFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
-          <h3 className="text-[20px] font-bold">Logo Branding</h3>
+          <h3 className="text-[20px] font-bold">Desarrollo de Servicios Web</h3>
           <p className="text-gray-500">
-            Sometimes features require a short description
+          Diseñamos y desarrollamos servicios web robustos y escalables para potenciar la interacción y comunicación en línea de tu empresa.
           </p>
         </div>
         <div className="flex flex-col gap-2">
           <RiSmartphoneFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
-          <h3 className="text-[20px] font-bold">App Design</h3>
+          <h3 className="text-[20px] font-bold">Desarrollo de Apps de Escritorio</h3>
           <p className="text-gray-500">
-            Sometimes features require a short description
+          Creamos aplicaciones de escritorio intuitivas y eficientes que optimizan tus procesos y brindan una experiencia de usuario excepcional.
           </p>
         </div>
         <div className="flex flex-col gap-2">
           <RiMacFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
-          <h3 className="text-[20px] font-bold">Webiste Design</h3>
+          <h3 className="text-[20px] font-bold">Diseño y desarrollo de sitios web</h3>
           <p className="text-gray-500">
-            Sometimes features require a short description
+          Creamos sitios web atractivos y modernos que representan la identidad de tu negocio y brindan una experiencia de usuario única.
           </p>
         </div>
       </div>

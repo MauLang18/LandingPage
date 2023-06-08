@@ -12,8 +12,8 @@ const Header = () => {
     <header className="flex items-center justify-between xl:justify-start w-full py-4 px-8 h-[10vh] z-50">
       <div className="xl:w-1/6 text-center -mt-4">
         <a href="#" className="text-2xl font-bold relative p-1 bg-white">
-          Power<span className="text-primary text-5xl">.</span>{" "}
-          <RiCheckboxBlankCircleFill className="absolute -left-3 -bottom-3 text-primary -z-10" />
+          CustomCode<span className="text-primary text-5xl">.</span>{" "}
+          <img src="logo1.png" className="h-[25px] absolute -left-8 top-2 text-primary -z-10" />
         </a>
       </div>
       <nav
