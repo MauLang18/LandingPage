@@ -22,12 +22,12 @@ const Hero = () => {
               <RiCheckboxBlankCircleFill className="text-white text-base absolute -left-5 -bottom-5 p-2 bg-primary rounded-full box-content" />
             </span>
           </h1>
-          <p className="text-gray-500 text-xl leading-[2.5rem]">
+          <p className="text-gray-500 text-2xl leading-[2.5rem]">
             Help find solutions with intitutive and in accordance with client
             business goals. we provide a high-quality services.
           </p>
           <div className="flex flex-col md:flex-row items-center gap-4">
-            <button className="bg-primary text-white py-2 px-8 rounded-xl text-xl">
+            <button className="w-full xl:w-auto bg-primary text-white py-2 px-8 rounded-xl text-xl">
               Contact Us
             </button>
             <button className="w-full xl:w-auto flex items-center justify-start text-left gap-4 py-2 px-8 rounded-xl text-xl">
@@ -84,6 +84,20 @@ const Hero = () => {
         </div>
         {/* Circle */}
         <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[280px] h-[280px] md:w-[380px] md:h-[380px] bg-white border-[10px] border-primary rounded-full -z-10"></div>
+
+        {/* Logos */}
+        <img
+          src="figma.png"
+          className="w-10 h-10 md:w-20 md:h-20 object-cover rounded-full border-l-8 border-gray-600 absolute top-[12%] right-[20%] xl:right-[10%]"
+        />
+        <img
+          src="adobe.png"
+          className="w-10 h-10 md:w-20 md:h-20 object-cover rounded-full border-l-8 border-gray-600 absolute top-[10%] xl:top-[2%] left-[20%] xl:left-[10%]"
+        />
+        <img
+          src="sketch.png"
+          className="w-10 h-10 md:w-20 md:h-20 object-cover rounded-full absolute bottom-[5%] left-[15%] xl:left-[3%] -rotate-12"
+        />
       </div>
     </section>
   );
