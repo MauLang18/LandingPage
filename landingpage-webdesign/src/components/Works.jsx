@@ -51,19 +51,19 @@ const Works = () => {
               src="sistema3.png"
               className="w-full h-56 object-cover rounded-3xl"
             />
-            <p className="text-gray-500">App Design - May, 2023</p>
+            <p className="text-gray-500">Desarrollado - May, 2023</p>
             <h3 className="text-2xl font-bold">
             Sistema de inventarios, con creacion de boletas
             </h3>
           </div>
           <div className="flex flex-col gap-4">
             <img
-              src="work5.png"
+              src="sistema5.png"
               className="w-full h-56 object-cover rounded-3xl"
             />
-            <p className="text-gray-500">App Design - June 20, 2022</p>
+            <p className="text-gray-500">Desarrollado - March, 2023</p>
             <h3 className="text-2xl font-bold">
-              Calendar App for Big SASS Company
+            Aplicacion para la asignacion de guardias para un hospital
             </h3>
           </div>
         </div>
