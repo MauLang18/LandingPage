@@ -13,7 +13,7 @@ const Header = () => {
       <div className="xl:w-1/6 text-center -mt-4">
         <a href="#" className="text-2xl font-bold relative p-1 bg-white">
           CustomCode<span className="text-primary text-5xl">.</span>{" "}
-          <img src="logo1.png" className="h-[25px] absolute -left-8 top-2 text-primary -z-10" />
+          <img src="logo1.png" className="h-[25px] absolute -left-8 top-2 text-primary -z-10" alt="Logo" />
         </a>
       </div>
       <nav
@@ -21,18 +21,10 @@ const Header = () => {
           showMenu ? "left-0" : "-left-full"
         } top-0 xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-10 transition-all duration-500 z-50`}
       >
-        <a href="#home" className="">
-          Home
-        </a>
-        <a href="#aboutUs" className="">
-          About Us
-        </a>
-        <a href="#services" className="">
-          Services
-        </a>
-        <a href="#aboutUs" className="">
-          Products
-        </a>
+        <a href="#home">Home</a>
+        <a href="#aboutUs">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#aboutUs">Products</a>
       </nav>
       <button
         onClick={() => setShowMenu(!showMenu)}

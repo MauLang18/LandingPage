@@ -13,9 +13,9 @@ const Hero = () => {
       <div className="md:col-span-5 flex items-center justify-center p-8 xl:p-16">
         <div className="flex flex-col gap-8">
           <h1 className="text-4xl xl:text-6xl font-bold xl:leading-[6rem]">
-          Desarrollo Tecnológico a Medida: Web, Aplicaciones y Software{" "}
+            Desarrollo Tecnológico a Medida: Web, Aplicaciones y Software{" "}
             <span className="text-primary py-2 px-6 border-8 border-primary relative inline-block">
-            Personalizadas
+              Personalizadas
               <RiCheckboxBlankCircleFill className="text-white text-base absolute -left-5 -top-5 p-2 bg-primary rounded-full box-content" />
               <RiCheckboxBlankCircleFill className="text-white text-base absolute -right-5 -top-5 p-2 bg-primary rounded-full box-content" />
               <RiCheckboxBlankCircleFill className="text-white text-base absolute -right-5 -bottom-5 p-2 bg-primary rounded-full box-content" />
@@ -23,7 +23,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-gray-500 text-2xl leading-[2.5rem]">
-          Encuentra soluciones que se ajusten a tus objetivos comerciales con nuestro enfoque intuitivo y de calidad.
+            Encuentra soluciones que se ajusten a tus objetivos comerciales con nuestro enfoque intuitivo y de calidad.
           </p>
           <div className="flex flex-col md:flex-row items-center gap-4">
             <button className="w-full xl:w-auto bg-primary text-white py-2 px-8 rounded-xl text-xl">
@@ -46,10 +46,10 @@ const Hero = () => {
           />
           <div className="relative bg-white shadow-xl rounded-lg p-4 flex flex-col justify-center gap-2 max-w-[250px] mx-auto -mt-12">
             <h2 className="text-[15px] font-bold tracking-[1px] text-gray-800">
-            Más de 100 proyectos exitosos completados
+              Más de 100 proyectos exitosos completados
             </h2>
             <div className="flex items-center gap-2 text-[15px] text-gray-500">
-            Equipo conformado por ingenieros altamente calificados.
+              Equipo conformado por ingenieros altamente calificados.
             </div>
             <div className="absolute -right-12 -bottom-12 -z-10">
               <div className="relative">
